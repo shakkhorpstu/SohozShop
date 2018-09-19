@@ -1,0 +1,36 @@
+body{
+    background: #d4e3fe;
+}
+
+table.product_list{
+    background-color: #7ebfbf;
+    font-size: 16px;
+    color: white;
+}
+a.edit{
+    color: #0c0b23;
+}
+a.delete{
+    color: #ec2c40;
+}
+tr.product{
+    background-color: #2ab3b3;
+}
+table.edit_form{
+    margin-left: 500px;
+}
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: #685757;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}

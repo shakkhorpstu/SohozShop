@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sohoz Shopping</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_checkout">Checkout</string>
+    <string name="title_activity_product__list_">Product_List_Activity</string>
+    <string name="title_activity_order_item_">OrderItem_Activity</string>
+    <string name="action_settings">Settings</string>
+</resources>

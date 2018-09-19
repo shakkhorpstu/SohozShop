@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shakkhor.sohozshopping">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Registration_Activity" />
+        <activity android:name=".Start_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Product_List_Activity"
+            android:label="@string/title_activity_product__list_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OrderItem_Activity"
+            android:label="@string/title_activity_order_item_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Details" />
+        <activity android:name=".Edit_Order" />
+        <activity android:name=".Change_password"></activity>
+    </application>
+
+</manifest>

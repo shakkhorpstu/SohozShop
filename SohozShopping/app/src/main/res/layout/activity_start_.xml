@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#413e4f"
+    tools:context="com.example.shakkhor.sohozshopping.Start_Activity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Username"
+            android:background="@color/colorText"
+            android:textColor="#000000"
+            android:id="@+id/input_username"/>
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:background="@color/colorText"
+            android:textColor="#000000"
+            android:inputType="textPassword"
+            android:id="@+id/input_password"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Log In"
+            android:textAllCaps="false"
+            android:background="#008975"
+            android:id="@+id/btn_login"/>
+
+        <TextView
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="If you have no account,then please register first"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Registration"
+            android:textAllCaps="false"
+            android:background="#3F51B5"
+            android:id="@+id/btn_registration"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Registration Information"
+        android:textColor="#263238"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter First Name"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:id="@+id/editTextFirstName"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Last Name"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:id="@+id/editTextLastName"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Username"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:id="@+id/editTextUserName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter City"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:id="@+id/editTextCity"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Address"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:id="@+id/editTextAddress"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Password"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:inputType="textPassword"
+        android:id="@+id/editTextPassword"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="#00AA8D"
+        android:textAllCaps="false"
+        android:id="@+id/buttonRegister"/>
+
+        </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

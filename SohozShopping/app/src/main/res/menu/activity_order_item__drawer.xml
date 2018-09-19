@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/change_password"
+            android:title="Change Pssword"/>
+        <item
+            android:id="@+id/logout"
+            android:title="Log Out"/>
+        <item
+            android:id="@+id/about"
+            android:title="About"/>
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
